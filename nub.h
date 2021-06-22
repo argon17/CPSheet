@@ -33,7 +33,9 @@ using namespace std;
 #define debug1d(a, n) {cerr << #a<<" "; cerr << "[ "; for (auto& i : a) {_print(i); cerr << " ";} cerr << "]";}
 #define debug2d(a, r, c) cerr << #a<<" :\n"; for(auto& i : a){for(auto& j : i){cerr<<j<<" ";} cerr<<endl;}
 #else
-#define debug(x) NULL;
+#define debug(x)            NULL;
+#define debug1d(a, n)       NULL;
+#define debug2d(a, r, c)    NULL;
 #endif
 
 /*-------------------------------------------------------------------------------------------------------------*/

@@ -22,18 +22,3 @@ void solve()
     }
     cout<<ans;
 }
-int main()
-{
-    FAST
-    #ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-    #endif
-    ll int TEST=1;
-    // cin >> TEST;
-    //init();
-    while(TEST--)
-    {
-        solve();
-    }
-}
