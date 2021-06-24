@@ -7,10 +7,8 @@ void solve()
     string s;
     cin >> s;
     for (int i = 0; i < k; ++i) {
-        debug(s);
         for (int j = 0; j < n - 1; ++j) {
             if ((s[j] == 'B') && (s[j + 1] == 'G')) {
-                debug(j);
                 swap(s[j], s[j + 1]);
                 j++;
             }

@@ -2,8 +2,8 @@
 
 void solve()
 {
-    ll n; cin>>n;
-    msi mp;
+    int n; cin>>n;
+    map<string, int> mp;
     while(n--){
         string s;
         cin>>s;
@@ -18,12 +18,11 @@ void solve()
 }
 int main()
 {
-    FAST
     #ifndef ONLINE_JUDGE
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
     #endif
-    ll int TEST=1;
+    int TEST=1;
     // cin >> TEST;
     //init();
     while(TEST--)

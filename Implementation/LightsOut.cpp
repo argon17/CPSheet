@@ -15,5 +15,4 @@ void solve()
         }
         cout << endl;
     }
-    debug2d(mat, 5, 5);
 }
