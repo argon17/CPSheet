@@ -8,10 +8,8 @@ void multiply(long m1[2][2], long m2[2][2]) {
     long b = (m1[0][0] * m2[0][1]) % hell + (m1[0][1] * m2[1][1]) % hell;
     long c = (m1[1][0] * m2[0][0]) % hell + (m1[1][1] * m2[1][0]) % hell;
     long d = (m1[1][0] * m2[0][1]) % hell + (m1[1][1] * m2[1][1]) % hell;
-    m1[0][0] = a % hell;
-    m1[0][1] = b % hell;
-    m1[1][0] = c % hell;
-    m1[1][1] = d % hell;
+    m1[0][0] = a % hell, m1[0][1] = b % hell;
+    m1[1][0] = c % hell, m1[1][1] = d % hell;
 }
 
 void powmatn(long mat[2][2], long n)
